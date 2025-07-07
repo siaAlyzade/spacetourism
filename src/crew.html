@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module" src="./control.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Crew</title>
+  </head>
+  <body class="crew">
+    <header>
+      <nav class="nav flex flex-sb flex-cv mt40">
+        <div class="flex fl">
+          <div class="logo ml64">
+            <img src="./assets/shared/logo.svg" alt="" />
+          </div>
+        </div>
+        <ul
+          class="navbar navbar-desktop flex flex-c color-font-white tp8 gap48 pl128 pr64 pt40 pb40"
+        >
+          <span class="line color-bg-white"></span>
+          <li><span class="bold">00</span> <a href="./index.html">HOME</a></li>
+          <li>
+            <span class="bold">01</span>
+            <a href="./destination.html">DESTINATION</a>
+          </li>
+          <li><span class="bold">02</span> <a href="./crew.html">CREW</a></li>
+          <li>
+            <span class="bold">03</span>
+            <a href="./technology.html">TECHNOLOGY</a>
+          </li>
+        </ul>
+
+        <ul
+          class="navbar-mobile flex flex-column color-font-white tp8 gap48 pl40 pr40 pt40 pb40 off"
+        >
+          <span class="line color-bg-white"></span>
+          <div class="flex flex-r mb48">
+            <a href="#" class="btn-nav-close"
+              ><span class="brick"></span><span class="brick"></span
+            ></a>
+          </div>
+          <li><span class="bold">00</span> <a href="./index.html">HOME</a></li>
+          <li>
+            <span class="bold">01</span>
+            <a href="./destination.html">DESTINATION</a>
+          </li>
+          <li><span class="bold">02</span> <a href="./crew.html">CREW</a></li>
+          <li>
+            <span class="bold">03</span>
+            <a href="./technology.html">TECHNOLOGY</a>
+          </li>
+        </ul>
+
+        <a href="#" class="btn-nav-opn"
+          ><span class="brick"></span><span class="brick"></span
+          ><span class="brick"></span
+        ></a>
+      </nav>
+    </header>
+    <div class="crew-page">
+      <main class="grid grid-2col grid-ch grid-cv">
+        <h5 class="crew-title tp5 color-font-white mt48 mb48">
+          <span style="opacity: 0.25">02</span> MEET YOUR CREW
+        </h5>
+        <div></div>
+
+        <div class="crew-data flex flex-column color-font-white gap40">
+          <p class="bio tp4" style="opacity: 50.42%">COMMANDER</p>
+          <h5 class="name tp3">Douglas Hurley</h5>
+          <p class="bio tp9 color-font-blue-300">
+            Douglas Gerald Hurley is an American engineer, former Marine Corps
+            pilot and former NASA astronaut. He launched into space for the
+            third time as commander of Crew Dragon Demo-2.
+          </p>
+          <div class="crew-pagination flex gap40">
+            <div class="dot dot-active" data-index="0"></div>
+            <div class="dot" data-index="1"></div>
+            <div class="dot" data-index="2"></div>
+            <div class="dot" data-index="3"></div>
+          </div>
+        </div>
+        <div class="planet-img container">
+          <img src="./assets/crew/image-douglas-hurley.webp" alt="" />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
